@@ -1,11 +1,16 @@
-# Film Image Classification Project
+# Film Colour Analysis and Image Classification
 
-This project explores the fascinating intersection of colour usage in film and machine learning. It focuses on two distinct films, “Oppenheimer” and “Barbie”, investigating them through visualisations and colour palette extraction. The study further extends to the application of machine learning models, specifically K-Nearest Neighbours (KNN) and Random Forest Classifiers (RFC), to classify images based on their film origin. The performance of these models is evaluated using two types of inputs - the extracted colour palettes and the raw image data.
+This project explores the fascinating use of colour in two contrasting films - "Oppenheimer" and "Barbie." Through visualisations and colour palette extraction, it provides insights into the distinct colour aesthetics employed in each film. Additionally, the study investigates the application of machine learning algorithms, specifically K-Nearest Neighbours (KNN) and Random Forest Classifiers (RFC), for classifying images based on their film of origin. The performance of these models is evaluated using two types of input data: the extracted colour palettes and the raw image pixels.
 
-## Results
+## Key Findings
 
-The highest accuracy (0.86) was achieved by the RFC model utilising the raw image data. While extracting colour palettes can be useful for visualising the colour design of the films, they provide little additional benefit when used as input features for film classification.
+1. The Random Forest Classifier achieved the highest accuracy of 0.86 when trained on the raw image data, outperforming the model trained on colour palettes.
+2. While colour palette extraction aids in visualising the colour design of films, in this project, it did not provide a significant advantage as input features for image classification.
 
 ## Future Work
 
-Future work could explore other feature extraction techniques and machine learning models, as well as ways to optimise model performance through hyperparameter tuning and other strategies.
+Potential avenues for future work include:
+- Exploring alternative feature extraction techniques beyond colour palettes.
+- Evaluating the performance of other machine learning models for image classification tasks.
+- Optimising model performance through hyperparameter tuning and other strategies.
+- Extending the analysis to a larger dataset of films to gain broader insights into colour usage across different genres and styles.
